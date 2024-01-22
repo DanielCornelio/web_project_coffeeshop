@@ -167,7 +167,7 @@
   max-width: 385px;
   margin: 0 auto 120px;
 }
-.reservation__label {
+.form__label {
   display: block;
   margin-bottom: 8px;
   font-family: Inter;
@@ -176,7 +176,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.reservation__item {
+.form__item {
   border-radius: 4px;
   padding: 15px 20px;
   max-width: 385px;
@@ -190,7 +190,7 @@
   width: 385px;
   box-sizing: border-box;
 }
-.reservation__button {
+.form__button {
   border-radius: 4px;
   height: 60px;
   max-width: 385px;
@@ -199,7 +199,7 @@
   background-color: #2f80ed;
   color: #fff;
 }
-.reservation__button:hover {
+.form__button:hover {
   opacity: 70%;
   font-family: Inter;
   font-style: normal;
@@ -207,7 +207,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.reservation__check {
+.form__check {
   border-radius: 2px;
   font-family: Inter;
   font-style: normal;
