@@ -103,34 +103,31 @@
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
 
-          <form action="" class="form reservation__form">
-              <fieldset class="form__fieldset">
-                <label for="" class="form__label"
-                >Nombre *
-              </label>
+          <form action="" class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="" class="form__label">Nombre * </label>
               <input type="text" name="" id="" class="form__item" />
-              <label for="" class="form__label"
-                >Número de comensales *
-              </label>
+              <label for="" class="form__label">Número de comensales * </label>
               <input type="number" name="" id="" class="form__item" />
-              <label for="" class="form__label"
-                >Fecha y hora *
-              </label>
+              <label for="" class="form__label">Fecha y hora * </label>
               <input type="datetime-local" name="" id="" class="form__item" />
-              <label for="" class="form__label"
-                >Tu correo electrónico *
-              </label>
+              <label for="" class="form__label">Tu correo electrónico * </label>
               <input type="email" name="" id="" class="form__item" />
 
-              <button type="submit" class="form__item">Reservar una mesa</button>
-              <label for="" class="form__label"
-              <input type="checkbox" name="" id="" class="form__item" />
-                >Acepto los terminos de uso
+              <button type="submit" class="form__button">
+                Reservar una mesa
+              </button>
+              <label for="terminos_uso" class="form__label">
+                <input
+                  type="checkbox"
+                  name="terminos_uso"
+                  id="terminos_uso"
+                  class="form__check"
+                />
+                Acepto los terminos de uso
               </label>
-              </fieldset>
+            </fieldset>
           </form>
-
-
         </section>
         <section id="menu" class="menu"></section>
         <section id="about" class="about"></section>
