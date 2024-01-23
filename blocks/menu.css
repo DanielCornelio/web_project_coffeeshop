@@ -28,7 +28,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
- margin: 0 0 100px;
+  margin: 0 0 100px;
 }
 .card {
   width: 540px;
