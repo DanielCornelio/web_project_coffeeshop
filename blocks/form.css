@@ -1,4 +1,6 @@
-
+.form__fieldset{
+  border:0;
+}
 .form__label {
   display: block;
   margin-bottom: 8px;

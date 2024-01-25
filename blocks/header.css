@@ -67,4 +67,5 @@
 .header__address {
   margin-right: 80px;
   margin-bottom: 40px;
+  z-index: 1;
 }
